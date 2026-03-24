@@ -1,4 +1,4 @@
-fork this project and create a codespace with this code:sudo crossystem dev_boot_usb=1 dev_boot_legacy=1
+sudo crossystem dev_boot_usb=1 dev_boot_legacy=1
 sudo chromeos-firmwareupdate --mode=todev
 sudo /usr/share/vboot/bin/make_dev_ssd.sh --remove_rootfs_verification
 sudo /usr/share/vboot/bin/make_dev_ssd.sh --remove_rootfs_verification
